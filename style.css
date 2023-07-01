@@ -1,0 +1,175 @@
+@font-face {
+    font-family: thanhvan;
+    src: url(./Fonts/Barlow/Barlow-Medium.ttf);
+}
+
+@font-face {
+    font-family: thanhvan;
+    src: url(./Fonts/Barlow/Barlow-Bold.ttf);
+    font-weight: bold;
+}
+*{
+    margin: 0;
+    padding: auto;
+    font-family: thanhvan;
+}
+/* a:hover{
+    font-size: 150%;
+} */
+a{
+    text-decoration: none;
+}
+.banner{
+    height: 800px;
+    padding-top: 12px;
+    color: #005555;
+}
+.heading{
+    height: 200px;
+    padding-top: 50px;
+    color: #e9ecef;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+.menu{
+    background-color: #005555;
+    border-radius: 10px;
+    height: 80px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    padding-top: 12px;
+}
+.popular{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.card{
+    border: none;
+}
+.card-title{
+    color: #005555;
+}
+.card-body button{
+    color: whitesmoke;
+    background-color: #005555;
+}
+.card-body button:hover{
+    background-color: #198754;
+}
+/* img:hover{
+    transform: scale(1);
+    transition: all 0.5s;
+} */
+/* img:hover{
+    transform: scale(1.5);
+    transition: all 2s;
+} */
+/* home */
+.populer h2:hover{
+    font-size: 110%;
+}
+.dichvu{
+    background-color: #e9ecef;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.box-feature{
+    background-color: #fff;
+    height: 250px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.maybe{
+    padding-top: 50px;
+}
+.phukiennb{
+    background-color: #e9ecef;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* end home */
+/* gios */
+.anh{
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.cardo img:hover{
+    transform: scale(1.5);
+    transition: all 2s;
+    /* max-width: 400px;
+    max-height: 400px; */
+}
+/* .xe img{
+    transform: rotate(45deg);
+} */
+/* end gios */
+/* gioithieu */
+.about{
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.abu{
+    padding-right: 50px;
+}
+/* end gioithieu */
+/* lienhe */
+.lienhe{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 400px 1000px;
+}
+.flh button{
+    background-color: #005555;
+    color: whitesmoke;
+    border-radius: 30px;
+    height: 60px;
+    width: 150px;
+}
+/* end lienhe */
+/* tintuc */
+.news{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.cardeu img:hover{
+    transform: scale(1);
+    transition: all 0.5s;
+}
+.ci img{
+    transition: all 1s ease;
+}
+.ci img:hover{
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+.ci{
+    overflow: hidden;
+}
+/* end tintuc */
+@media (max-width: 775px) {
+    .about{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+}
+footer{
+    padding-top: 80px;
+    background-color: #e9ecef;
+    padding-bottom: 20px;
+    color: #6c757d;
+}
+footer a{
+    color: #6c757d;
+    text-decoration: underline;
+}
+footer h3 a{
+    text-decoration: none;
+}
